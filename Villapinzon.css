@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#titulo {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #388E3C; /* Color de fondo */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+section {
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+#contenedorone, #contenedorone1, #contenedorone2, #contenedorone3, #contenedorone4 {
+    height: 30vh; /* Ajustar el tamaño del contenedor */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#informacion {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+#turismo {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column; /* Apila las instituciones verticalmente */
+}
+
+.institucion {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+    margin-bottom: 20px; /* Espacio entre instituciones */
+}
+
+.institucion hr {
+    border: 1px solid #ccc; /* Línea entre las instituciones */
+    margin: 10px 0; /* Espaciado vertical de la línea */
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.imagen {
+    flex-shrink: 0; /* Evita que la imagen se encoja */
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+#descripcion-fisica {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+}
+
+.contenido {
+    display: flex; /* Coloca el texto y el mapa uno al lado del otro */
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el texto y el mapa */
+}
+
+.mapa {
+    flex-shrink: 0; /* Evita que el mapa se encoja */
+}
+
+.mapa iframe {
+    border-radius: 5px; /* Bordes redondeados */
+}
+#historia {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+}
+
+.contenido {
+    display: flex; /* Coloca el texto y la imagen uno al lado del otro */
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.imagen {
+    flex-shrink: 0; /* Evita que la imagen se encoja */
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+#informacion .contenido {
+    display: flex;
+    flex-direction: row; /* Alinea el texto a la izquierda y la imagen a la derecha */
+    align-items: center;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    margin-bottom: 20px;
+}
+
+#informacion .texto {
+    order: 1; /* Asegura que el texto esté en la izquierda */
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+#informacion .imagen {
+    order: 2; /* Asegura que la imagen esté en la derecha */
+    flex-shrink: 0; /* Evita que la imagen se encoja */
+}
+
+#informacion .imagen img {
+    max-width: 100%;
+
+}
+

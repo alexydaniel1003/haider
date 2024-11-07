@@ -1,0 +1,232 @@
+:root{
+font-family: Arial, Helvetica;
+}
+
+body{
+background-color: #F3F2F4;
+} 
+#titulo{
+text-align:center;
+color:#000000;
+}
+
+#titulo2{
+text-align:center;
+color:#000000;
+}
+
+#titulo6{
+text-align:center;
+color:#000000;
+}
+
+
+#titulo3{
+text-align:center;
+color:#000000;
+}
+
+#titulo4{
+text-align:center;
+color:#000000;
+}
+
+#descripcion{
+color:#232326;
+font-size: 24px;
+}
+
+#descripcion2{
+color:#232326;
+font-size: 24px;
+}
+
+#descripcion3{
+color:#232326;
+font-size: 24px;
+}
+
+#descripcion4{
+color:#232326;
+font-size: 24px;
+}
+
+#contenedor-1{
+width: 100vw;
+height: 80vh;
+background-image: url("./img/A.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color:#fff;
+}
+
+#contenedor-2{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width:100vw;
+height: 400px;
+background-color:#FFF;
+color:#fff;
+margin-top: 20px;
+margin-bottom:20px;
+}
+
+#contenedor-3{
+width:300px;
+height: 300px;
+background-image: url("./img/R1.png");
+background-repeat: no-repeat;
+background-size: cover;
+color:#fff;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 10px;
+}
+
+#contenedor-4{
+width:300px;
+height: 300px;
+background-image: url("./img/C.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+color:#fff;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 10px;
+}
+
+#contenedor-5{
+width:300px;
+height: 300px;
+background-image: url("./img/A1.png");
+background-repeat: no-repeat;
+background-size: cover;
+color:#fff;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 10px;
+}
+
+#contenedor-6 {
+    width: 300px;
+    height: 300px;
+    background-image: url("./img/motavita.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Estira la imagen para llenar el contenedor */
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#contenedor-7 {
+    width: 300px;
+    height: 300px;
+    background-image: url("./img/berbeo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Estira la imagen para llenar el contenedor */
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+
+#contenedor-8{
+width:300px;
+height: 300px;
+background-image: url("./img/Villapinzon.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color:#fff;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 10px;
+}
+
+#menu{
+text-align:center;
+background-color:#CECECE;
+}
+#lista-menu{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+color:#fff;
+padding-top:10px;
+padding-bottom:10px;
+list-style:none;
+}
+.menu-item{
+color:#000000;
+font-size: 18px;
+}
+.enlace-menu{
+text-decoration: none;
+}
+
+#campamento{
+width:100vw;
+height: 80vh;
+background-image: url("./img/C.jpg");
+background-repeat: no-repeat;
+background-size: 100% 110%;
+color:#fff;
+}
+
+#atletismo{
+width:100vw;
+height: 80vh;
+background-image: url("./img/AA.jpeg");
+background-repeat: no-repeat;
+background-size: 100% 110%;
+color:#fff;
+}
+
+#recreacion{
+width:100vw;
+height: 80vh;
+background-image: url("./img/RE.jpg");
+background-repeat: no-repeat;
+background-size: 100% 110%;
+color:#fff;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+    background-color: #CECECE;
+    padding: 10px 0;
+}
+
+#lista-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu-item {
+    position: relative; /* Para poder posicionar el recuadro */
+}
+
+.enlace-menu {
+    text-decoration: none; /* Quita el subrayado */
+    color: #000; /* Color del texto */
+    font-size: 18px; /* Cambia el tamaño de la fuente */
+    padding: 10px 15px; /* Espaciado interno */
+    border: 2px solid #000; /* Bordes del recuadro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #FFFFFF; /* Color de fondo */
+    transition: background-color 0.3s, color 0.3s; /* Efecto al pasar el mouse */
+}
+
+.enlace-menu:hover {
+    background-color: #000; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color del texto al pasar el mouse */
+}
